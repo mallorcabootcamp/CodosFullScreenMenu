@@ -1,31 +1,32 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    
+    font-size: 12px;
     font-family: "Montserrat", sans-serif;
 }
 
 .side-menu {
     color: white;
     background-color: #515151;
-    width: 70%;
+    height: 100vh;
+    width: 90%;
 }
 
 header {
     padding: 20px;
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 header p {
     font-size: medium; 
-    padding-top: 10px; 
     font-weight: bold;
-    position: relative;
-    left: -20px;
+    margin: 0;
 }
 
 main,
@@ -45,7 +46,7 @@ hr {
 main button {
     width: fit-content;
     color: #979797;
-    border: 0;
+    border: none;
     background-color: #515151;
     margin: 8px 0;
     font-size: 1.4rem;
@@ -65,18 +66,20 @@ footer {
     margin: 40px 20px;
 }
 
-.bi-list {
-    font-size: 25px;
-    margin-top: 10px;
+.fa-bars {
+    font-size: 2rem;
 }
 
 .close-button  {
     background-color: #515151;
-    font-size: 40px;
+    border: none;
+    
+}
+
+.fa-times-circle{
+    font-size: 2.8rem;
     color: #fff;
-    border: 0;
-    position: relative;
-    top: -10px;
+    padding: 5px;
 }
 
 .close-button:focus {
