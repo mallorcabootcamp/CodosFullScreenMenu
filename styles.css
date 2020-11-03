@@ -86,6 +86,6 @@ footer {
     outline: 0;
 }
 
-.close-button:active {
+.fa-times-circle:active {
     color: #2ECA70;
 }
