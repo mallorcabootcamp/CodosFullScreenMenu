@@ -1,34 +1,85 @@
-body{
-    font-family: 'Montserrat', sans-serif;    
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.close {
-    font-size: 70px;
-    color: #575757;
-    opacity: 1.0;
+body {
+    color: white;
+    background-color: #515151;
+    font-family: "Montserrat", sans-serif;
 }
 
-aside {
-    margin-top: 20px;
+header {
+    margin: 20px;
+    display: flex;
+    width: 280px;
+    justify-content: space-between;   
 }
 
-.button {
-    height: 21vh;
-    width: 80%;
-    background-color:#fff;
-    border: 2px solid #fff;
-    border-bottom: 2px solid #575757; 
-    color: #575757;
-    font-size: 2.5rem;
-    font-weight: 600;
-    text-transform: uppercase;
+header p {
+    font-size: medium; 
+    padding-top: 10px; 
+    font-weight: bold;
+    position: relative;
+    left: -20px;
 }
 
-.button:hover{
-    border: 2px solid #575757;
-    color: #212529;
+main,
+footer,
+hr {
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
-.button:focus{
-    color:#2ecc70;
+hr {
+    border-top: 1px solid #979797;
+    width: 200px;
+}
+
+main button {
+    width: fit-content;
+    color: #979797;
+    border: 0;
+    background-color: #515151;
+    margin: 8px 0;
+    font-size: 1.4rem;
+}
+
+main button:focus {
+    color: #2ECA70;
+    outline: 0;
+}
+
+a, a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    margin: 40px 20px;
+}
+
+.bi-list {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.close-button  {
+    background-color: #515151;
+    font-size: 40px;
+    color: #fff;
+    border: 0;
+    position: relative;
+    top: -10px;
+}
+
+.close-button:focus {
+    outline: 0;
+}
+
+.close-button:active {
+    color: #2ECA70;
 }
